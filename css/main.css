@@ -10,6 +10,7 @@ html {
   font-size: 10px;
   background-color: #8daae5;
   font-family: arial, sans-serif;
+  color: azure;
 }
 
 .wrapper {
@@ -18,11 +19,65 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   max-width: 1000px;
   margin: 0 auto;
   font-size: 2rem;
   background-color: #fff;
   -webkit-box-shadow: 0 0 4px 0 #000;
           box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  background-color: #96c1a5;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.search {
+  background-color: #1f7823;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.settings {
+  background-color: #ab64ed;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 50px;
+}
+
+.menu {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: #7777a3;
+}
+
+.main-articles {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: cadetblue;
+}
+
+.article-list {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: chocolate;
+}
+
+.footer {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background-color: darkcyan;
 }
 /*# sourceMappingURL=main.css.map */

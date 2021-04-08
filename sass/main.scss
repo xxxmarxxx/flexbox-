@@ -14,10 +14,18 @@ html{
   font-size: 10px;
   background-color: $main-color;
   font-family: $default-font;
+
 }
 
-
 .wrapper{
+  // container
   display: flex;
+  flex-wrap: wrap;
+  // pozycja
+  max-width: 1000px;
+  margin: 0 auto;
+  // wyglad
   font-size: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 #000;
 }

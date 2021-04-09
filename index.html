@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FlexBox project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css">
 </head>
+
 <body>
   <div class="wrapper">
     <div class="logo">
@@ -14,15 +17,45 @@
     </div>
     <form action="/" class="search">
       <input type="text" class="search__input" placeholder="podaj wyszukana fraze">
-      <button class="search__btn" >Wyszukaj</button>
+      <button class="search__btn">Wyszukaj</button>
     </form>
-    <div class="settings">Ustawienia</div>
-    <nav class="menu">Menu</nav>
-    <section class="main-articles">Artykuly glowne</section>
+    <div class="settings">
+      <a class="settings__icon-links" href=""><i class="fa fa-sliders" aria-hidden="true"></i></a>
+      <a class="settings__icon-links" href=""><i class="fa fa-tasks" aria-hidden="true"></i></a>
+      <a class="settings__icon-links" href=""><i class="fa fa-cogs" aria-hidden="true"></i></a>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="" class="menu__link">Home</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Products</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Future</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Go!</a></li>
+      </ul>
+    </nav>
+    <section class="main-articles">
+      <h1 class="main-articles__intro">Polecamy!</h1>
+      <article class="article">
+        <img src="https://placeimg.com/640/480/1" alt="" class="article__image">
+        <h1 class="article__title">Title article 1</h1>
+        <p class="article__introduction">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quam vero,
+          accusamus repellendus doloribus, quas excepturi delectus sunt cumque iste laboriosam fugit explicabo debitis
+          recusandae enim dese. Non consequuntur molestiae hic!</p>
+          <a href="" class="article__btn">read more...</a>
+      </article>
+      <article class="article">
+        <img src="https://placeimg.com/640/480/2" alt="" class="article__image">
+        <h1 class="article__title">Title article 2</h1>
+        <p class="article__introduction">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quam vero,
+          accusamus repellendus doloribus, quas excepturi delectus sunt cumque iste laboriosam fugit explicabo debitis
+          recusandae enim. Non consequuntur molestiae hic!</p>
+          <a href="" class="article__btn">read more...</a>
+      </article>
+    </section>
     <section class="article-list">Lista Artykulow</section>
     <footer class="footer">Stopka</footer>
   </div>
 
-  
+
 </body>
+
 </html>

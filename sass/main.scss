@@ -168,14 +168,14 @@ text-align: center;
   width: 50%;
   min-width: 200px;
   font-size: 1.8rem;
-  border: solid 1px #666;
+  // border: solid 1px #666;
   padding: 6px 12px;
-  background-color: rgb(136, 136, 136);
-  color: #e4e4e4;
+  background-color: rgb(238, 238, 238);
+  color: $main-color;
   text-decoration: none;
   &:hover{
     color: rgb(255, 255, 255);
-    background-color: brown;
+    background-color: rgb(55, 93, 113);
   }
 }
 }

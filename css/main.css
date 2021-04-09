@@ -193,16 +193,15 @@ html {
   width: 50%;
   min-width: 200px;
   font-size: 1.8rem;
-  border: solid 1px #666;
   padding: 6px 12px;
-  background-color: #888888;
-  color: #e4e4e4;
+  background-color: #eeeeee;
+  color: #8daae5;
   text-decoration: none;
 }
 
 .article__btn:hover {
   color: white;
-  background-color: brown;
+  background-color: #375d71;
 }
 
 .main-articles {
